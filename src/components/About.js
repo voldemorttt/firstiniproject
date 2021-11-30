@@ -9,26 +9,9 @@ export default function About() {
         color: 'dark'
     })
 
-    const [btntext, setbtntext] = useState("Enable Dark Mode")
+    // const [btntext, setbtntext] = useState("Enable Dark Mode")
     
-    const darkmode = () =>{
-        if(mystyle.color === 'black'){
-            setmystyle({
-                color:'white',
-                backgroundColor:'black'
-            })
-
-            setbtntext("Enable Light Mode ")
-        }
-
-        else{
-            setmystyle({
-                color:'black',
-                backgroundColor:'white'
-            })
-            setbtntext("Enable Dark Mode")
-        }
-    }
+    
     return (
         <div className="container my-2" style={mystyle} >
             <h2>About Us</h2>

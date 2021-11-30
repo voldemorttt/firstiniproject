@@ -42,7 +42,7 @@ function App() {
               <Route exact path='/About' element={<About mode={mode}/>}/>
 
 
-              <Route exact path='/Home' element={<Textform heading="Enter the text to analyze" mode={mode}/>}/>
+              <Route exact path='/' element={<Textform heading="Enter the text to analyze" mode={mode}/>}/>
 
         </Routes>  
         </div>

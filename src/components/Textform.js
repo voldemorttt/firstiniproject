@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import propTypes from 'prop-types'
 import './textform.css';
 
 export default function Textform(props) {
@@ -43,7 +42,7 @@ export default function Textform(props) {
             <br />
             <h3>Your Text Here</h3>
             <p> {text.split(" ").filter((element) =>{return element.length !==0}).length} words, {text.length} characters</p>
-            <p>{0.008 * text.split(" ").filter((element) =>{return element.length !==0}) .length} Minutes Read </p>
+            <p>{0.008 * text.split(" ").filter((element) =>{return element.length !==0}).length} Minutes Read </p>
             <h3>Preview</h3>
             <p>{text}</p>
         </div>
