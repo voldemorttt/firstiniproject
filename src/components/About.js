@@ -1,13 +1,13 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './textform.css';
 
 export default function About() {
     
-    const [mystyle, setmystyle] = useState(
+    const mystyle =
     {
         backgroundColor: 'white',
         color: 'dark'
-    })
+    }
 
     // const [btntext, setbtntext] = useState("Enable Dark Mode")
     
